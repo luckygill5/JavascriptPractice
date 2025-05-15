@@ -1,0 +1,22 @@
+@import "./common/function.scss";
+
+$bgHeader:green;
+$white:#fff;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+header{
+    padding: px-to-vw(30);
+    background-color: $bgHeader;
+    .heading{
+        text-align: center;
+        margin: 0px;
+        font-size:px-to-vw(30);
+        color: $white;
+    }
+}

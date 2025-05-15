@@ -1,0 +1,12 @@
+// _utils.scss or _functions.scss
+
+/// Convert px to vw
+/// @param {Number} $px - The pixel value to convert
+/// @param {Number} $base - The base width (default: 1440px)
+/// @return {Number} - The value in vw
+/// 
+ @function px-to-vw($px,  $base: 1920) {
+@return ($px / $base) * 100vw;
+}
+
+
